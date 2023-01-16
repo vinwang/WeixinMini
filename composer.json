@@ -1,5 +1,5 @@
 {
-    "name": "socialiteproviders/weixin_mini",
+    "name": "socialiteproviders_wxmini/weixin_mini",
     "description": "Weixin Mini OAuth2 Provider for Laravel Socialite",
     "license": "MIT",
     "authors": [
