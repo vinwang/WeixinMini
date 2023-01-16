@@ -1,7 +1,7 @@
 # Weixin
 
 ```bash
-composer require socialiteproviders-wxmini/weixin_mini
+composer require socialiteproviders-mini/weixin_mini
 ```
 
 ## Installation & Basic Usage
