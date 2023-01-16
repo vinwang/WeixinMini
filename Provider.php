@@ -1,6 +1,6 @@
 <?php
 
-namespace SocialiteProviders\WeixinMini;
+namespace SocialiteProvidersMini\WeixinMini;
 
 use SocialiteProviders\Manager\OAuth2\AbstractProvider;
 use SocialiteProviders\Manager\OAuth2\User;
