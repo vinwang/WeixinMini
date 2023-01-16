@@ -12,9 +12,9 @@ Please see the [Base Installation Guide](https://socialiteproviders.com/usage/),
 
 ```php
 'weixin' => [    
-  'client_id' => env('WEIXIN_CLIENT_ID'),  
-  'client_secret' => env('WEIXIN_CLIENT_SECRET'),  
-  'redirect' => env('WEIXIN_REDIRECT_URI') 
+  'client_id' => env('WEIXINMINI_CLIENT_ID'),  
+  'client_secret' => env('WEIXINMINI_CLIENT_SECRET'),  
+  'redirect' => env('WEIXINMINI_REDIRECT_URI') 
 ],
 ```
 
@@ -28,7 +28,7 @@ Add the event to your `listen[]` array in `app/Providers/EventServiceProvider`. 
 protected $listen = [
     \SocialiteProviders\Manager\SocialiteWasCalled::class => [
         // ... other providers
-        'SocialiteProviders\\Weixin\\WeixinExtendSocialite@handle',
+        'SocialiteProviders\\WeixinMini\\WeixinMiniExtendSocialite@handle',
     ],
 ];
 ```
